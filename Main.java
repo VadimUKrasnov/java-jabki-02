@@ -60,10 +60,10 @@ public class Main {
 
         //1. Напишите функциональность, которая вычисляет площадь круга
         double r = 3;
-        double pi = 3.14;
-        double S = (pi * (r * r));
-        System.out.println("Площадь круга равна:");
-        System.out.println(S);
+        double pI = 3.14;
+        double s = pI * (r * r);
+        System.out.printf("Площадь круга с радиусом %s равна: %s", r, s);
+        //System.out.println(s);
 
         System.out.println();
 
@@ -90,9 +90,9 @@ public class Main {
         System.out.println();
 
         //5. Напишите калькулятор ИМТ
-        double weightkg = 50;
-        double heightm = 1.5;
-        System.out.println(weightkg / (heightm * heightm));
+        double weight = 50;
+        double height = 1.5;
+        System.out.println(weight / (height * height));
 
         System.out.println();
 
@@ -138,7 +138,7 @@ public class Main {
         //10. Выведите в консоль смайлик
         System.out.println("         Punk’s Not Dead!!!");
         System.out.println("            ******               ");
-        System.out.println("             *****              ");
+        System.out.println("             *****               ");
         System.out.println("              ****               ");
         System.out.println("          *   ***  *  *          ");
         System.out.println("      *        *        *        ");
@@ -148,23 +148,8 @@ public class Main {
         System.out.println("   * * |     * 00 *     |  *     ");
         System.out.println("    *   *  * |######| *   *      ");
         System.out.println("      *   * * |######| * *       ");
-        System.out.println("        *  *    *   *   *         ");
+        System.out.println("        *  *    *   *   *        ");
         System.out.println("            *   *   *            ");
         System.out.println("               *  *              ");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
