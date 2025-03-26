@@ -55,5 +55,100 @@ public class Main {
         System.out.println("    *    ");
         System.out.println("  * * *  ");
         System.out.println("* * * * *");
+
+        System.out.println();
+
+        //1. Напишите функциональность, которая вычисляет площадь круга
+        double r = 3;
+        double pi = 3.14;
+        double s = pi * (r * r);
+        System.out.printf("Площадь круга с радиусом %s равна: %s", r, s);
+        System.out.println(s);
+
+        System.out.println();
+
+        //2. Переведите температуру в градусах Цельсия в Фаренгейты
+        double c = 15;
+        double f = (c * 1.8 + 32);
+        System.out.println(f);
+
+        System.out.println();
+
+        //3. Проверьте, является ли длина сроки "Hello" равной длине другой строки
+        String wordOne = "Hello";
+        String wordTwo = "Bye";
+        System.out.println(wordOne.length() == wordTwo.length());
+
+        System.out.println();
+
+        //4. Напишите функциональность, которая определяет, является ли год високосным
+        int year = 1992;
+        System.out.println("Год " + year + " високосный?");
+        System.out.println((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
+
+        System.out.println();
+
+        //5. Напишите калькулятор ИМТ
+        double weight = 50;
+        double height = 1.5;
+        System.out.println(weight / (height * height));
+
+        System.out.println();
+
+        //6. Выведите в консоль таблицу истинности для операторов && и ||
+        System.out.println("Конъюкция         Дизъюкция");
+        System.out.println("A  B  A&B        A  B  A||B");
+        System.out.println("0  0   0         0  0    0");
+        System.out.println("1  0   0         1  0    1");
+        System.out.println("0  1   0         0  1    1");
+        System.out.println("1  1   1         1  1    1");
+
+        System.out.println();
+
+        //7. Выведите в консоль квадрат
+        System.out.println("************");
+        System.out.println("************");
+        System.out.println("************");
+        System.out.println("************");
+        System.out.println("************");
+
+        System.out.println();
+
+        //8. Выведите в консоль полый квадрат
+        System.out.println("%%%%%%%%%%%%");
+        System.out.println("%          %");
+        System.out.println("%          %");
+        System.out.println("%          %");
+        System.out.println("%%%%%%%%%%%%");
+
+        System.out.println();
+
+        //9. Выведите в консоль ромб
+        System.out.println("     *     ");
+        System.out.println("    *  *   ");
+        System.out.println("   *    *  ");
+        System.out.println("  *      * ");
+        System.out.println("   *    *  ");
+        System.out.println("    *  *   ");
+        System.out.println("      *    ");
+
+        System.out.println();
+
+        //10. Выведите в консоль смайлик
+        System.out.println("         Punk’s Not Dead!!!");
+        System.out.println("            ******               ");
+        System.out.println("             *****               ");
+        System.out.println("              ****               ");
+        System.out.println("          *   ***  *  *          ");
+        System.out.println("      *        *        *        ");
+        System.out.println("    *          |          *      ");
+        System.out.println("   *   =======    =======  *     ");
+        System.out.println("   *    *$$$*  ||  *$$$*   *     ");
+        System.out.println("   * * |     * 00 *     |  *     ");
+        System.out.println("    *   *  * |######| *   *      ");
+        System.out.println("      *   * * |######| * *       ");
+        System.out.println("        *  *    *   *   *        ");
+        System.out.println("            *   *   *            ");
+        System.out.println("               *  *              ");
     }
 }
