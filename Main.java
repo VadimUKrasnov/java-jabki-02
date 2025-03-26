@@ -60,25 +60,24 @@ public class Main {
 
         //1. Напишите функциональность, которая вычисляет площадь круга
         double r = 3;
-        double pI = 3.14;
-        double s = pI * (r * r);
+        double pi = 3.14;
+        double s = pi * (r * r);
         System.out.printf("Площадь круга с радиусом %s равна: %s", r, s);
-        //System.out.println(s);
+        System.out.println(s);
 
         System.out.println();
 
         //2. Переведите температуру в градусах Цельсия в Фаренгейты
-        double C = 15;
-        double F = (C * 1.8 + 32);
-        System.out.println();
-        System.out.println(F);
+        double c = 15;
+        double f = (c * 1.8 + 32);
+        System.out.println(f);
 
         System.out.println();
 
         //3. Проверьте, является ли длина сроки "Hello" равной длине другой строки
-        String word1 = "Hello";
-        String word2 = "Bye";
-        System.out.println(word1.length() == word2.length());
+        String wordOne = "Hello";
+        String wordTwo = "Bye";
+        System.out.println(wordOne.length() == wordTwo.length());
 
         System.out.println();
 
